@@ -1,7 +1,7 @@
 Title: MNIST classification with Deep Learning
 Slug: mnist-tensorflow
-Date: 2017-02-10 20:00
+Date: 2017-10-02 20:00
 Category: posts
-Tags: python tensorflow deeplearning mnist
+Tags: python, tensorflow, deep learning, mnist
 author: @cginestra
 Summary: My first approximation to tensorflow following tutorial

@@ -12,6 +12,8 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'es'
 
+
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -20,21 +22,28 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('CV', 'https://www.linkedin.com/in/cginestra'),
+         ('Menu2', '#'),
+         ('Menu3', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
+SOCIAL = (('@cginestra', 'www.twitter.com/cginestra'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATH = './plugins'
-PLUGINS = ['ipynb.markup']
+PLUGINS = ['ipynb.markup', 'pelican-bootstrapify']
+
+BOOTSTRAPIFY = {
+    'table': ['table', 'table-striped', 'table-hover'],
+    'img': ['img-fluid'],
+    'blockquote': ['blockquote'],
+}
+
+THEME = 'themes/pelican-alchemy/alchemy'
