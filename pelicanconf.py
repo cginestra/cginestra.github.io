@@ -23,8 +23,19 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('CV', 'https://www.linkedin.com/in/cginestra'),
-         ('Menu2', '#'),
-         ('Menu3', '#'),)
+         #('Menu2', '#'),
+         #('Menu3', '#')
+         )
+
+ICONS = (
+			('twitter', 'https://www.twitter.com/carlosginestra'),
+			 ('github', 'https://github.com/cginestra')
+				)
+
+HIDE_AUTHORS = True
+
+# Default value is ['index', 'tags', 'categories', 'authors', 'archives']
+DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives', 'sitemap']
 
 # Social widget
 SOCIAL = (('@cginestra', 'www.twitter.com/cginestra'),
