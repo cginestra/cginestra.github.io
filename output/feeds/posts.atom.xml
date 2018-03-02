@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>cginestra personal site</title><link href="cginestra.github.io/" rel="alternate"></link><link href="cginestra.github.io/feeds/posts.atom.xml" rel="self"></link><id>cginestra.github.io/</id><updated>2017-10-02T20:00:00+02:00</updated><entry><title>MNIST classification with Deep Learning</title><link href="cginestra.github.io/mnist-tensorflow.html" rel="alternate"></link><published>2017-10-02T20:00:00+02:00</published><updated>2017-10-02T20:00:00+02:00</updated><author><name>@cginestra</name></author><id>tag:,2017-10-02:cginestra.github.io/mnist-tensorflow.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>cginestra personal site</title><link href="http://cginestra.github.io/" rel="alternate"></link><link href="http://cginestra.github.io/feeds/posts.atom.xml" rel="self"></link><id>http://cginestra.github.io/</id><updated>2017-10-02T20:00:00+02:00</updated><entry><title>MNIST classification with Deep Learning</title><link href="http://cginestra.github.io/mnist-tensorflow.html" rel="alternate"></link><published>2017-10-02T20:00:00+02:00</published><updated>2017-10-02T20:00:00+02:00</updated><author><name>@cginestra</name></author><id>tag:cginestra.github.io,2017-10-02:mnist-tensorflow.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -1446,7 +1446,7 @@ test accuracy 0.9723
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</summary><category term="python"></category><category term="tensorflow"></category><category term="deep learning"></category><category term="mnist"></category></entry><entry><title>Getting started with TensorFlow</title><link href="cginestra.github.io/gettingstarted-tensorflow.html" rel="alternate"></link><published>2017-10-01T20:00:00+02:00</published><updated>2017-10-01T20:00:00+02:00</updated><author><name>@cginestra</name></author><id>tag:,2017-10-01:cginestra.github.io/gettingstarted-tensorflow.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+</summary><category term="python"></category><category term="tensorflow"></category><category term="deep learning"></category><category term="mnist"></category></entry><entry><title>Getting started with TensorFlow</title><link href="http://cginestra.github.io/gettingstarted-tensorflow.html" rel="alternate"></link><published>2017-10-01T20:00:00+02:00</published><updated>2017-10-01T20:00:00+02:00</updated><author><name>@cginestra</name></author><id>tag:cginestra.github.io,2017-10-01:gettingstarted-tensorflow.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
